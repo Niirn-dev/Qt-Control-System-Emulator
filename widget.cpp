@@ -167,7 +167,7 @@ Widget::Widget(QWidget *parent) :
                 m_dscrInput.append(dscrSignal);
                 m_dscrOutput.append(m_dscrModel->update(dscrSignal));
 
-                std::cout << m_dscrOutput.back() << std::endl;
+                // std::cout << m_dscrOutput.back() << std::endl;
 
                 if (m_dscrOutput.back() > maxOutput) {
                     maxOutput = m_dscrOutput.back();
